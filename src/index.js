@@ -1,15 +1,5 @@
 import express from 'express'
 
-const obj = {
-  foo: {
-    bar: {
-      baz: 42
-    }
-  }
-}
-
-const baz = obj?.foo?.bar?.baz // 42
-
 const app = express()
 
 const router = express.Router()
