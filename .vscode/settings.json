@@ -1,5 +1,8 @@
 {
     "javascript.validate.enable": false,
-    "editor.formatOnSave": false,
-    "eslint.codeActionsOnSave.mode": "all"
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
